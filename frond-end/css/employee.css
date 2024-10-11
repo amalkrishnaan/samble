@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.employee{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient( #bbb2b2,#6e6e6e);    
+    
+}
+.card{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
+}
+
+.emp-cards{
+ margin-left: 10px;
+
+    
+}
+.emp-cards img{
+    width: 30rem;
+    height: 30rem;
+    margin-left: 110px;
+    border-radius: 12px;
+
+
+}
+.emp-content{
+    width: 40%;
+    
+    margin-top: 10px;
+}
+
+table{
+    margin-top: -12px;
+    width: 100%;
+    height: 52vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 400px;
+    margin-left:10px;
+
+}
+
+.input input{
+    height: 32px;
+    width: 400px;
+    padding-left: 10px;
+    
+
+}
+
+.input{
+    margin-left: 50px;
+    height: 47px;
+}
+
+.edit-btn{
+
+    padding: 10px 17px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    margin-left: 110px;
+ }
+
+ .edit-btn:hover{
+    background-color:rgb(20, 66, 180);
+
+    color:rgb(238, 97, 46);
+ }
+ .delete-btn:hover{
+    background-color:#c14553;
+
+
+ }
+ .delete-btn{
+    padding: 10px 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(155, 12, 12);
+    color: white;
+    border: none;
+    
+ }
